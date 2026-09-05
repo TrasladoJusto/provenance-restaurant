@@ -23,7 +23,7 @@ export function Hero({ backgroundImage = "/images/hero/full-homepage.jpg" }: Her
             priority
             className="object-cover"
             sizes="100vw"
-            quality={90}
+            quality={75}
           />
           {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80" />

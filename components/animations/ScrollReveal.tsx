@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, Variants } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 40 },
@@ -116,8 +117,6 @@ export function Parallax({ children, speed = 0.3, className }: ParallaxProps) {
     </div>
   );
 }
-
-import { cn } from "@/lib/utils";
 
 export interface StaggerItemProps {
   children: React.ReactNode;

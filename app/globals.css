@@ -2,13 +2,13 @@
 
 @theme {
   /* Colors - Dark mode (Provenance design system) */
-  --color-primary: #e5c476;
-  --color-primary-container: #c8a95e;
-  --color-on-primary: #3e2e00;
-  --color-primary-fixed: #ffdf96;
-  --color-primary-fixed-dim: #e4c375;
-  --color-on-primary-fixed: #251a00;
-  --color-on-primary-fixed-variant: #5a4400;
+  --color-primary: #c8a95e;
+  --color-primary-container: #b89848;
+  --color-on-primary: #2a1f0a;
+  --color-primary-fixed: #e8d5be;
+  --color-primary-fixed-dim: #c8a95e;
+  --color-on-primary-fixed: #1a1205;
+  --color-on-primary-fixed-variant: #4a3810;
 
   --color-secondary: #d6c4ad;
   --color-secondary-container: #544736;
@@ -328,4 +328,23 @@ body {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Slide down animation for mobile menu */
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 500px;
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.3s ease-out forwards;
+  overflow: hidden;
 }

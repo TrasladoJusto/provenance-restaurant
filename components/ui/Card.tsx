@@ -23,7 +23,7 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
         className={cn(
           "rounded-none transition-all duration-300",
           variants[variant],
-          hover && "hover:border-primary hover:shadow-[0_8px_30px_rgba(229,196,118,0.15)]",
+          hover && "hover:border-primary hover:shadow-[0_8px_30px_rgba(200,169,94,0.15)]",
           className
         )}
         {...props}

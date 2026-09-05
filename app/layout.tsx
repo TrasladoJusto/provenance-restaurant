@@ -12,10 +12,11 @@ const libreCaslon = Libre_Caslon_Text({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-display",
-  weight: ["400", "700"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://provenance-restaurant.com"),
   title: "PROVENANCE — Fine Dining Restaurant",
   description: "Experience culinary excellence at PROVENANCE. Michelin-starred fine dining with seasonal tasting menus, curated wine pairings, and private dining experiences.",
   keywords: ["fine dining", "michelin restaurant", "tasting menu", "wine pairing", "private dining", "seasonal cuisine"],

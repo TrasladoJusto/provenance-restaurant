@@ -37,17 +37,17 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const variants = {
       primary: `
         bg-primary text-on-primary hover:bg-primary-container/90
-        shadow-[0_4px_14px_0_rgba(229,196,118,0.3)]
-        hover:shadow-[0_6px_20px_0_rgba(229,196,118,0.4)]
+        shadow-[0_4px_14px_0_rgba(200,169,94,0.3)]
+        hover:shadow-[0_6px_20px_0_rgba(200,169,94,0.4)]
       `,
       secondary: `
-        bg-secondary text-on-secondary hover:bg-secondary-container/90
+        bg-secondary text-on-secondary hover:bg-secondary-container/80
       `,
       ghost: `
         bg-transparent text-on-surface hover:bg-surface-container
       `,
       outline: `
-        border border-outline hover:border-primary hover:bg-primary/5
+        border border-outline-variant hover:border-primary hover:bg-primary/5
         text-on-surface
       `,
     };
