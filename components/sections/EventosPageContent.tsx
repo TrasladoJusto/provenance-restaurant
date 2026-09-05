@@ -237,7 +237,7 @@ export function EventosPageContent() {
                   <div>
                     <label htmlFor="guests" className="block text-label-sm text-white/80 mb-2">Number of Guests *</label>
                     <select id="guests" name="guests" required className="w-full px-4 py-3 bg-white/10 border border-white/30 text-white focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors appearance-none bg-[url('data:image/svg+xml;charset=UTF-8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><polyline points=%226 9 12 15 18 9%22></polyline></svg>')] bg-no-repeat bg-right-4 center pr-10">
-                      <option value="" disabled selected>Select guest count</option>
+                      <option value="" disabled>Select guest count</option>
                       <option value="8-12">8–12 guests</option>
                       <option value="13-24">13–24 guests</option>
                       <option value="25-50">25–50 guests</option>
@@ -248,7 +248,7 @@ export function EventosPageContent() {
                   <div>
                     <label htmlFor="event-type" className="block text-label-sm text-white/80 mb-2">Event Type *</label>
                     <select id="event-type" name="eventType" required className="w-full px-4 py-3 bg-white/10 border border-white/30 text-white focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors appearance-none bg-[url('data:image/svg+xml;charset=UTF-8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><polyline points=%226 9 12 15 18 9%22></polyline></svg>')] bg-no-repeat bg-right-4 center pr-10">
-                      <option value="" disabled selected>Select event type</option>
+                      <option value="" disabled>Select event type</option>
                       <option value="corporate">Corporate Dinner</option>
                       <option value="wedding">Wedding / Anniversary</option>
                       <option value="launch">Product Launch</option>

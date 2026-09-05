@@ -16,15 +16,16 @@ export function Hero({ backgroundImage = "/images/hero/full-homepage.jpg" }: Her
       {/* Background Image with Parallax */}
       <Parallax speed={0.15} className="absolute inset-0 z-0">
         <div className="absolute inset-0">
-          <Image
-            src={backgroundImage}
-            alt="PROVENANCE Fine Dining Restaurant Interior"
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-            quality={75}
-          />
+<Image
+             src={backgroundImage}
+             alt="PROVENANCE Fine Dining Restaurant Interior"
+             fill
+             priority
+             className="object-cover"
+             sizes="100vw"
+             quality={75}
+             fetchPriority="high"
+           />
           {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80" />
         </div>
