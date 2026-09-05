@@ -1,0 +1,17 @@
+name = "provenance-restaurant"
+main = ".open-next/worker.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[observability]
+enabled = true
+
+[vars]
+NODE_ENV = "production"
+
+# Add your environment variables here
+# RESEND_API_KEY = "your-resend-api-key"
